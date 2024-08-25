@@ -3,8 +3,8 @@ import sqlite3
 from datetime import datetime
 
 # Configuration
-CSV_FILE_PATH = '/var/lib/jenkins/workspace/ETL_Pipeline/input_data.csv'
-DATABASE_FILE = '/var/lib/jenkins/workspace/ETL_Pipeline/output_database.db'
+CSV_FILE_PATH = 'C:/ProgramData/Jenkins/.jenkins/workspace/ETL_pipeline/input_data.csv'
+DATABASE_FILE = 'C:/ProgramData/Jenkins/.jenkins/workspace/ETL_pipeline/output_database.db'
 TABLE_NAME = 'transformed_data'
 
 # Extract
